@@ -1,0 +1,6 @@
+npm install --save-dev lite-server // to install lite-server for loading the browser when the 
+//file is saved without reloading manually in the browser
+
+npm start   // to satrt lite-server
+
+npx tsc filename // to generate js files from ts files
