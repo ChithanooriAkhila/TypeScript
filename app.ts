@@ -1,18 +1,21 @@
-function sum(n1: number, n2: number) {
-    // if(typeof n1 !=='number' || typeof n2!=='number'){
-    //     throw new Error('Incorrect input')
-    // }
-    return n1 + n2;
+// const person : object = {
+//     name:"akhila",
+//     age:20
+// }
+// const person: {
+//     name: string;
+//     age: number;
+// }
+// console.log(person.nickname)//error
+// console.log(person.name) //error
+
+const person : {
+    name:string;
+    age:number
+} = {
+    name:"akhila",
+    age:20
 }
 
-let number1: number;
-// number1="hello"; //error
-number1 = 10;
-let myName="akhila";
-// myName=10; //error
-
-const number2 = 2.8;
-
-const result = sum(number1, number2);
-
-console.log(result);
+console.log(person.age);
+console.log(person.name)
