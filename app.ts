@@ -8,6 +8,8 @@ function sum(n1: number, n2: number) {
 let number1: number;
 // number1="hello"; //error
 number1 = 10;
+let myName="akhila";
+// myName=10; //error
 
 const number2 = 2.8;
 
