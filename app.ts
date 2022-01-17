@@ -21,14 +21,21 @@
 // console.log(person.name)
 
 
-const person  = {
+const person :{
+    name: string;
+    age: number;
+    hobbies: string[];
+    role: [number,string]
+} = {
     name:"akhila",
     age:20,
     hobbies:['sports','cooking'],
     role:[2,'author']
 }
-person.role.push('hello')
-person.role[1]=28;
+// person.role=[0,'akhila','user'] ///error
+
+person.role.push('hello') //works
+// person.role[1]=28;
 for(const x of person.role){
     console.log(x)
 }
